@@ -53,8 +53,6 @@
    Upon success, use the res.render() method to take the user to jobs.ejs.
    You should also send the companies data retrieved from the database and send it to the jobs.ejs page in a variable called 'all_companies'.
 
-
-
 8. Modify your 'jobs.ejs' page. Use the forEach loop to display the name of each company on the page. 
 
    Hint:  Remember you have already sent companies array in a variable called 'all_companies'   

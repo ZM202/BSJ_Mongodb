@@ -12,6 +12,25 @@
     
     <br><br>
 
+    <% all_companies.forEach ( (single_company) => { %>
+        <%= single_company.name %> 
+        <br>
+        <%= single_company.description %> 
+        <br>
+        <img src = "<%= single_company.logo %> "> 
+        <br>
+   
+    <% }) %>
+
+    //for each of the companies inside the company array, 
+    the single company. looking at the inside all companies.
+    single company is object..not looking at the index here..accessing name properties 
+    of the single company object.  
+    <br>
+    <br>
+      
+    <!--- put logo url inside the image src-->
+
     <h2>Add a New Company</h2>
     <form action="/add" method="POST">
         <label for="company_id">Company ID: </label>
